@@ -1,0 +1,21 @@
+# Blender Auto-save and Temporary Files
+*.blend[0-9] # Catches .blend1, .blend2, etc., but .blend1 is also LFS tracked
+*.autosave
+/tmp/
+
+# Render Output (if you don't want to track ALL renders)
+/renders/
+/output/
+# If you want to explicitly ignore all image/video outputs:
+# *.png
+# *.jpg
+# *.exr
+# *.mov
+# *.mp4
+
+# Cache and Bake Data (e.g., simulation caches)
+/cache/
+/baking/
+
+# User-specific settings (usually not committed)
+*.userprefs.blend
